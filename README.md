@@ -47,6 +47,5 @@ This repository is primarily for personal learning, but if you have suggestions 
 ## 📬 Connect with Me
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/chanchal09/)
-- 📧 Email: your-email@example.com
 
 📌 **Stay consistent and keep coding!** 💻🔥
