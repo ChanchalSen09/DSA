@@ -24,7 +24,7 @@ void Hollow_Pyramid(int n){
             if(j<(n-1)-i){
                 cout<<" ";
             }else if(k<2*i+1){
-             if(k==0||k==2*i ||i==n-1){ // Last Line Handle on that Case i==n-1; 
+             if(k==0||k==2*i){
                 cout<<"*";}
                 else{
                     cout<<" ";
