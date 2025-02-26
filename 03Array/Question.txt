@@ -1,0 +1,7 @@
+Questions 
+Sum of Array Element
+Count 0 and 1 in Array
+Min and Max in the Array
+Reverse of Array (Using for and While Loop)
+Extreme Print of Array (1,2,3,4,5,6,7 -> 1,7,2,6,3,5,4);
+Pattern Printing Some Questions are panding Please Look at that questions and Finish It!
