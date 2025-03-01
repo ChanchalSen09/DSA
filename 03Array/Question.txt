@@ -1,5 +1,3 @@
 Questions 
-Print All Pair
-Sort 0's and 1's 
-Shift Element by One
+
 Pattern Printing Some Questions are panding Please Look at that questions and Finish It!
