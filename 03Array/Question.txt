@@ -1,3 +1,37 @@
 Questions 
 
+1. Binary Search
+2. Linear Search
+3. Kadane’s Algorithm (Maximum Subarray Sum)
+4. Two Pointer Technique
+5. Dutch National Flag Algorithm
+6. Moore’s Voting Algorithm (Majority Element)
+7. Trapping Rain Water Problem
+8. Next Permutation Algorithm
+9. Longest Consecutive Subsequence
+10. Maximum Product Subarray
+11. Find the Second Largest Element
+12. Remove Duplicates from Sorted Array
+13. Move Zeroes to End
+14. Find the Union and Intersection of Two Arrays
+15. Check if Array is Sorted
+16. Rearrange Array in Alternating Positive & Negative Numbers
+17. Subarray Sum Equals K
+18. Best Time to Buy and Sell Stock
+19. Count Inversions in an Array
+20. Merge Sorted Arrays in O(1) Space
+21. Right-Angled Triangle
+22. Pyramid Pattern
+23. Diamond Pattern
+24. Number Triangle
+25. Hollow Square Pattern
+26. Hourglass Pattern
+27. Floyd’s Triangle
+28. Butterfly Pattern
+29. Pascal’s Triangle
+30. Zig-Zag Pattern
+
+Complete the pending pattern printing questions as needed!
+
+
 Pattern Printing Some Questions are panding Please Look at that questions and Finish It!
