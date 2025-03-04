@@ -19,8 +19,9 @@ int FindOccurrence(vector<int>arr,int target){
     int start=0;
     int ans = -1;
     int end = arr.size()-1;
+    int mid = 0;
   while(start<=end){
-   int mid = start+(end-start)/2;
+    mid = start+(end-start)/2;
     if(arr[mid]==target){
         ans = mid;
         end = mid-1;
