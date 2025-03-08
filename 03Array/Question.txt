@@ -10,8 +10,6 @@ Questions
 11. Find the Second Largest Element
 12. Remove Duplicates from Sorted Array
 13. Move Zeroes to End
-14. Find the Union and Intersection of Two Arrays
-15. Check if Array is Sorted
 16. Rearrange Array in Alternating Positive & Negative Numbers
 17. Subarray Sum Equals K
 18. Best Time to Buy and Sell Stock
