@@ -1,7 +1,5 @@
 Questions 
 
-1. Binary Search
-3. Kadane’s Algorithm
 6. Moore’s Voting Algorithm (Majority Element)
 7. Trapping Rain Water Problem
 8. Next Permutation Algorithm
