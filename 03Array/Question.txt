@@ -23,8 +23,3 @@ Questions
 28. Butterfly Pattern
 29. Pascal’s Triangle
 30. Zig-Zag Pattern
-
-Complete the pending pattern printing questions as needed!
-
-
-Pattern Printing Some Questions are panding Please Look at that questions and Finish It!
