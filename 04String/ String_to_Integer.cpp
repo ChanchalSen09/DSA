@@ -21,4 +21,4 @@ public:
 
         return sign * result;
     }
-};
+}; // this is Compy Paste Solution Please Look at this
