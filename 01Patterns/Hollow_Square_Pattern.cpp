@@ -11,6 +11,10 @@ void PrintHolloe_Square_Pattern(int n){
         }
     }
     cout<<endl;
+
+
+
+    
  }
 }
 
