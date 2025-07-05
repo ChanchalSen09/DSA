@@ -8,6 +8,7 @@ void Print_Hollow_Square_Inverted_Pattern(int n){
             cout<<"*";
         }else{
             cout<<" ";
+            
         }          }
         cout<<endl;     
     }
