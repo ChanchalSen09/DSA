@@ -1,10 +1,11 @@
 #include<iostream>
-#include<vector>
 #include<algorithm>
+#include<vector>
 using namespace std;
-void SortZeroOne(vector<int>&arr,int size){
-    int start = 0;
+void Sort(vector<int>& arr, int size){
+    int start  = 0;
     int end = size-1;
+
     while(start<end){
         if(arr[start]==0){
             start++;
@@ -17,12 +18,11 @@ void SortZeroOne(vector<int>&arr,int size){
 }
 int main()
 {
-     vector<int>arr={0,0,1,1,0,1,0,1,0,1,0};
+     vector<int>arr = {0,1,0,0,1,0,1,0,0,1};
      int size = arr.size();
-     SortZeroOne(arr,size);
+     Sort(arr, size);
      for(int i : arr){
-        cout<<i<< " ";
+        cout<<i<<" ";
      }
-
     return 0;
 }
