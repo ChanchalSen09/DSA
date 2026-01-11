@@ -30,20 +30,20 @@
 //     return 0;
 // }
 
-#include <iostream>
-#include<vector>
-using namespace std;
+// #include <iostream>
+// #include<vector>
+// using namespace std;
 
-int main() {
-    int n = 10;
-    int curr = 0;
-    int first = 0;
-    int second = 1;
-    for(int i = 2;i<=n;i++){
-        curr = first + second;
-        second = first;
-        first = curr;
-    }
-    cout<<curr;
-    return 0;
-}
+// int main() {
+//     int n = 10;
+//     int curr = 0;
+//     int first = 0;
+//     int second = 1;
+//     for(int i = 2;i<=n;i++){
+//         curr = first + second;
+//         second = first;
+//         first = curr;
+//     }
+//     cout<<curr;
+//     return 0;
+// }
