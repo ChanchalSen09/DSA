@@ -1,15 +1,20 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+struct Node{
+    int data;
+    struct Node *left;
+    struct Node *right;
+    Node(int val){
+        data = val;
+        left = right = nullptr;
+    }
+};
 int main() {
 
-    int n;
-    cin >> n;
-
-    vector<int> arr(n);
-    for (int i = 0; i < n; i++) cin >> arr[i];
-
-
-    return 0;
+   struct Node *root = new Node(1);
+   root->left = new Node(2);
+   root->right = new Node(3);
+   root->left->right= new Node(5);
+   return 0;
 }
