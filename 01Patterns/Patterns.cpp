@@ -36,7 +36,7 @@ void Number_triangle1(int n){
 void Inverted_triangle(int n){
     for(int i = n;i>0;i--){
         for(int j = i; j>0;j--){
-            cout<<" * ";
+            cout<<"*";
         }
         cout<<endl;
      }
@@ -119,7 +119,50 @@ void  Binary_triangle(int n){
     }
 }
 void Number_Crown(int n){
-
+int space = 2*(n-1);
+for(int i = 1;i<=n;i++){
+    for(int j = 1;j<=i;j++){
+        cout<<j;
+    }
+    for(int k = 1;k<space;k++){
+        cout<<" ";
+    }
+    for (int m = i;m>=1;m--){
+        cout<<m;
+    }
+    cout<<endl;
+    space -=2;
+}
+}
+void Inverted_triangle2(int n){
+    int space = 0;
+    for(int i = 0;i<(n);i++){
+    for(int j = i;j<n;j++){
+        cout<<"*";
+    }
+    for (int k = 0;k<space;k++){
+        cout<<" ";
+    }
+    for(int j = i;j<n;j++){
+        cout<<"*";
+    }
+    space +=2;
+    cout<<endl;
+  }
+  space = 2*n-2;
+  for(int i = 1;i<=n;i++){
+    for(int j = 1;j<=i;j++){
+        cout<<"*";
+    }
+    for (int k = 1;k<=space;k++){
+        cout<<" ";
+    }
+    for(int l = 1;l<=i;l++){
+        cout<<"*";
+    }
+    space -=2;
+    cout<<endl;
+  }
 }
 int main()
 {
@@ -128,14 +171,14 @@ int main()
     // triangle(n);
     // Number_triangle(n)
     // Number_triangle1(n);
-    // Inverted_triangle(n);
+    //  Inverted_triangle(n);
     // Inverted_triangle_num(n);
     // Pyramid(n);
     // InvertedPyramid(n);
     // Diamond(n);
     // HDiamond(n);
     // Binary_triangle(n);
-    Number_Crown(n);
-
+    // Number_Crown(n);
+    // Inverted_triangle2(n);
     return 0;
 }
