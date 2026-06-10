@@ -72,12 +72,54 @@ void InvertedPyramid(int n){
     }
 }
 void Diamond(int n){
-    for(int i = 0;i<2*n;i++){
-     for(int j = 0;j<2*n;j++){
-        cout<<"*";
-      }
-      cout<<endl;
+    for (int i = 0;i<n;i++){
+        for(int space = 0;space<n-i-1;space++){
+            cout<<" ";
+        }
+        for(int j = 0; j < 2*i+1;j++){
+            cout<<"*";
+        }
+        cout<<endl;
     }
+    for (int i = 0;i<n;i++){
+        for(int space = 0;space<i;space++){
+            cout<<" ";
+        }
+        for(int j = 0; j <2*(n-i)-1;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
+void HDiamond(int n){
+        for(int  i = 0;i<=n;i++){
+        for(int j = 1;j<=i;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+        for(int i = n;i>=0;i--){
+        for(int j = 1; j<=i;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+     }
+}
+
+void  Binary_triangle(int n){
+        for(int  i = 0;i<=n;i++){
+        for(int j = 1;j<=i;j++){
+            if(i%2==0&&j%2!=0){
+                cout<<"0";
+            }else{
+                cout<<"1";
+            }
+        }
+        cout<<endl;
+    }
+}
+void Number_Crown(int n){
+
 }
 int main()
 {
@@ -90,7 +132,10 @@ int main()
     // Inverted_triangle_num(n);
     // Pyramid(n);
     // InvertedPyramid(n);
-    Diamond(n);
+    // Diamond(n);
+    // HDiamond(n);
+    // Binary_triangle(n);
+    Number_Crown(n);
 
     return 0;
 }
