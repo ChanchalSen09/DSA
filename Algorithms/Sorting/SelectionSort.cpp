@@ -25,12 +25,23 @@ void BubbleSort(vector<int>&arr,int n){
     }
     return;
 }
+void Insertion_sort(vector<int>&arr,int n){
+    for(int i = 0;i<=n-1;i++){
+      int j=i;
+        while(j>0&&arr[j-1]>arr[j]){
+            swap(arr[j-1],arr[j]);
+            j--;
+        }
+    }
+    return;
+}
 int main()
 {
     vector<int>arr={13,46,24,52,20,9};
     int n = arr.size();
-    selectionSort(arr,n);
-    BubbleSort(arr,n);
+    // selectionSort(arr,n);
+    // BubbleSort(arr,n);
+    Insertion_sort(arr,n);
     for(int a : arr){
         cout<<a<<" ";
     }
