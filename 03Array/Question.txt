@@ -106,6 +106,7 @@
 
 ### More Two Pointers Problems:
 - Remove Duplicates from Sorted Array
+- Union of Two Sorted Arrays
 - Valid Mountain Array
 - Sum of Three Values
 
