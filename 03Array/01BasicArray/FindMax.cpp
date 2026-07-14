@@ -16,6 +16,7 @@ void secondLarge(vector<int>arr,int size){
        int second = INT_MIN;
      for(int i =0;i<size;i++){
         if(arr[i]>min){
+            second = min;
             min = arr[i];
         }
        if(arr[i]>second&&arr[i]<min){
@@ -37,8 +38,8 @@ int main()
      vector<int>arr={3,4,5,1,2};
      int size = arr.size();
     //  findMIN(arr,size);
-    // secondLarge(arr,size);
- bool result =   CheckArray(arr,size);
- result ? cout<<"Sorted" : cout<<"notSorted";   
+    secondLarge(arr,size);
+//  bool result =   CheckArray(arr,size);
+//  result ? cout<<"Sorted" : cout<<"notSorted";   
  return 0;
 }
